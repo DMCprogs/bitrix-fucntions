@@ -2,8 +2,8 @@
 define('CRM_HOST', 'websalt.bitrix24.ru'); // Ваш домен CRM системы
 define('CRM_PORT', '443'); // Порт сервера CRM. Установлен по умолчанию
 define('CRM_PATH', '/crm/configs/import/lead.php'); // Путь к компоненту lead.rest
-define('CRM_LOGIN', 'Krassibname@yandex.ru'); // Логин пользователя Вашей CRM по управлению лидами
-define('CRM_PASSWORD', 'rfntymrf89'); // Пароль пользователя Вашей CRM по управлению лидами
+define('CRM_LOGIN', ''); // Логин пользователя Вашей CRM по управлению лидами
+define('CRM_PASSWORD', ''); // Пароль пользователя Вашей CRM по управлению лидами
 $postData = Array(
 	'TITLE' =>$arParams["NAME"] . " лид с сайта ваш сайт",
 	'NAME' => $arParams["NAME"],
